@@ -1,6 +1,6 @@
 /* ===================================
 --------------------------------------
-	Tulen | Photography HTML Template
+	Tlani |  Web Portfolio
 	Version: 1.0
 --------------------------------------
 ======================================*/
@@ -72,7 +72,7 @@ $(window).on('load', function() {
 	function hero() {
 
 		var window_w = $(window).innerWidth();
-		
+
 		if(window_w > 1300) {
 			var pana_w = 180;
 		} else if( window_w > 1200 ) {
@@ -96,9 +96,9 @@ $(window).on('load', function() {
 			autoPlay: false,
 			borderWidth: 0
 		});
-		
+
 	}
-	
+
 	hero();
 
 	$(window).resize(function(){
@@ -133,7 +133,7 @@ $(window).on('load', function() {
 		});
 
 	}
-	
+
 
 	/*------------------
 		Background Set
