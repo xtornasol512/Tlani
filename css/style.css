@@ -274,11 +274,12 @@ ol {
 	font-size: 30px;
 	text-align: center;
 	color: #fff;
-	background: #0f0f0f;
+	background: #12455C;
 	cursor: pointer;
 }
 
 .menu-social-warp {
+	background-image: url('../img/tira_menu/barra_blanca_menu.png');
 	height: calc(100% - 90px);
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -298,7 +299,7 @@ ol {
 .menu-social a {
 	display: block;
 	font-size: 18px;
-	color: #252525;
+	color: #12455C;
 	margin-bottom: 50px;
 }
 
@@ -691,7 +692,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 }
 
 /*------------------
-   About page
+   Quienes somos page
  ------------------*/
 
 .about-section {
@@ -1754,7 +1755,7 @@ only screen and (min-width: 576px) and (max-width: 767px) {
 }
 
 /*----------------
-   Contact Page
+   Contacto Page
  ----------------*/
 
 .contact-section {
