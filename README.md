@@ -1,1 +1,1 @@
-Tlani main project for Potfolio website!
+TLANI main project for Potfolio website!
