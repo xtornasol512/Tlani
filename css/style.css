@@ -298,7 +298,7 @@ ol {
 
 .menu-social a {
 	display: block;
-	font-size: 18px;
+	font-size: 1.55em;
 	color: #12455C;
 	margin-bottom: 50px;
 }
@@ -432,7 +432,7 @@ ol {
 
 .main-menu ul li a:hover,
 .main-menu ul li a.active {
-	color: #2916e0;
+	color: #11455c;
 }
 
 .sm-footer {
@@ -839,7 +839,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 .about-text h2 {
 	display: inline-block;
 	padding-bottom: 8px;
-	border-bottom: 3px solid #2916e0;
+	border-bottom: 3px solid #11455c;
 	margin-bottom: 20px;
 }
 
@@ -1810,7 +1810,7 @@ only screen and (min-width: 992px) and (max-width: 1200px),
 .contact-info i {
 	display: block;
 	font-size: 48px;
-	color: #2916e0;
+	color: #11455c;
 	margin-bottom: 20px;
 }
 
