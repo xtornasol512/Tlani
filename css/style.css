@@ -1825,3 +1825,7 @@ only screen and (min-width: 992px) and (max-width: 1200px),
 	color: #b2b2b2;
 	font-weight: 400;
 }
+
+.contact-info a {
+	color: #252525;
+}
