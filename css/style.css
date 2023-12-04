@@ -260,6 +260,9 @@ ol {
 	.menu-wrapper {
 		width: 60px;
 	}
+	.site-logo {
+		background: center / cover no-repeat url(../img/utils/bar_tlani.png) !important;
+	}
 }
 
 .menu-wrapper.hide-left {
@@ -377,6 +380,7 @@ ol {
 	-webkit-box-align: center;
 	-ms-flex-align: center;
 	align-items: center;
+	max-width: 100%;
 }
 
 .main-menu {
@@ -628,6 +632,9 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 (max-width: 576px) {
 	.hero-slider-warp {
 		display: block;
+	}
+	.main-menu ul li a {
+		margin-bottom: 20px;
 	}
 }
 
