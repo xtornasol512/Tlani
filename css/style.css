@@ -1829,10 +1829,11 @@ only screen and (min-width: 992px) and (max-width: 1200px),
 
 .contact-info p {
 	margin-bottom: 0;
-	font-size: 18px;
+	font-size: 1em;
 	color: #252525;
 	font-weight: 500;
 }
+
 
 .contact-info p span {
 	color: #b2b2b2;
