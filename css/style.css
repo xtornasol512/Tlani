@@ -844,6 +844,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .about-text h2 {
+	color: #11455c;
 	display: inline-block;
 	padding-bottom: 8px;
 	border-bottom: 3px solid #11455c;
@@ -854,6 +855,10 @@ only screen and (min-width: 576px) and (max-width: 767px),
 	font-size: 16px;
 	line-height: 1.6;
 	margin-bottom: 9px;
+}
+
+.about-text p strong{
+	color: #11455c;
 }
 
 .skill-warp {
@@ -892,6 +897,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .circle-item h4 {
+	color: #11455c;
 	font-size: 20px;
 	font-weight: 600;
 }
