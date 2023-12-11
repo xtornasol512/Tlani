@@ -834,7 +834,11 @@ only screen and (min-width: 576px) and (max-width: 767px),
 	font-style: italic;
 	font-size: 16px;
 	color: #fff;
-	text-decoration: underline;
+	text-decoration: none;
+}
+.profile-email i{
+	font-size: 1.4em;
+	margin-right: 1em;
 }
 
 .about-text {
