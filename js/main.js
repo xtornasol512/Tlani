@@ -155,7 +155,7 @@ $(window).on('load', function() {
 		animateIn: 'fadeIn',
 		items: 1,
 		autoplay: true,
-		smartSpeed: 2000,
+		smartSpeed: 3000,
 	});
 
 	/*------------------
