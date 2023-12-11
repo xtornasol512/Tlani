@@ -1847,3 +1847,23 @@ only screen and (min-width: 992px) and (max-width: 1200px),
 .contact-info a {
 	color: #252525;
 }
+
+.owl-carousel .owl-dots .owl-dot {
+    background: #fff; /* Background color of dots */
+    width: 12px; /* Width of dots */
+    height: 12px; /* Height of dots */
+    border-radius: 50%; /* Makes dots circular */
+    margin: 10px; /* Spacing between dots */
+
+}
+
+.owl-carousel .owl-dots .owl-dot.active {
+    background: #12455C; /* Background color of active dot */
+}
+
+.owl-carousel .owl-dots {
+    position: absolute;
+    bottom: 10px; /* Adjust as needed */
+    left: 50%;
+    transform: translateX(-50%); /* Centers the dots */
+}

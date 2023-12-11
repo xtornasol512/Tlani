@@ -150,12 +150,12 @@ $(window).on('load', function() {
 	$('.hero-slider').owlCarousel({
 		loop: true,
 		nav: false,
-		dots: false,
+		dots: true,
 		animateOut: 'fadeOut',
 		animateIn: 'fadeIn',
 		items: 1,
 		autoplay: true,
-		smartSpeed: 1000,
+		smartSpeed: 2000,
 	});
 
 	/*------------------
