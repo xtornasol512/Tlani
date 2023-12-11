@@ -1853,7 +1853,7 @@ only screen and (min-width: 992px) and (max-width: 1200px),
     width: 12px; /* Width of dots */
     height: 12px; /* Height of dots */
     border-radius: 50%; /* Makes dots circular */
-    margin: 10px; /* Spacing between dots */
+    margin: 7px; /* Spacing between dots */
 
 }
 
