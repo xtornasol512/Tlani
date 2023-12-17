@@ -9,13 +9,10 @@
 /* Template default CSS
 /*----------------------------------------*/
 
-@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700,700i&display=swap");
-
-
 html,
 body {
 	height: 100%;
-	font-family: "Montserrat", sans-serif;
+	font-family: "Barlow", sans-serif;
 	-webkit-font-smoothing: antialiased;
 }
 
@@ -37,7 +34,7 @@ h5,
 h6 {
 	margin: 0;
 	color: #252525;
-	font-weight: 600;
+	font-weight: 700;
 }
 
 h1 {
@@ -65,7 +62,7 @@ h6 {
 }
 
 p {
-	font-size: 15px;
+	font-size: 1em;
 	color: #636363;
 	line-height: 1.8;
 }
@@ -856,7 +853,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .about-text p {
-	font-size: 16px;
+	font-size: 1.2em;
 	line-height: 1.6;
 	margin-bottom: 9px;
 }
