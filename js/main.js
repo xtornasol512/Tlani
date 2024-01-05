@@ -53,6 +53,25 @@ $(window).on('load', function() {
 
 });
 
+// Check only on load momments
+document.addEventListener('DOMContentLoaded', function() {
+    var button = document.getElementById('more-details-btn');
+    var infoContents = document.querySelectorAll('.contact-box .info-content');
+
+    button.addEventListener('click', function() {
+        // Assume info contents are initially hidden
+        var isHidden = infoContents[0].style.display === 'none' || infoContents[0].style.display === '';
+
+        // Toggle the display of the info contents
+        infoContents.forEach(function(content) {
+            content.style.display = isHidden ? 'block' : 'none';
+        });
+
+        // Change the button text
+        button.textContent = isHidden ? 'Ocultar detalles' : 'Más detalles';
+    });
+});
+
 (function($) {
 	/*------------------
 		Navigation

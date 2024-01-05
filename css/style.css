@@ -1797,6 +1797,18 @@ only screen and (min-width: 576px) and (max-width: 767px) {
 	top: 0;
 }
 
+@media screen and (max-width: 480px) { /* Adjust the width as needed */
+    .contact-box .info-content {
+        display: none; /* Hide the text content */
+    }
+    #more-details-btn {
+        display: block !important; /* Show the button */
+		margin: 10px auto;
+        /* Style the button as needed */
+    }
+}
+
+
 .contact-box {
 	padding-top: 40px;
 	position: absolute;
