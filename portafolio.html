@@ -149,8 +149,12 @@
 					</div>
 				</div>
 				<div class="gallery-item impresion">
-					<a class="fresco" href="img/gallery/2.jpg" data-fancybox data-caption="Impresion" data-fresco-group="projects">
-						<img src="img/gallery/2.jpg" alt="">
+					<a class="fresco" href="img/portafolio/IMP1_500×500_PX.jpg" data-fancybox data-caption="Cliente:  Nutrilópez.
+						Técnica:  Impresión gran formato.
+						Sustrato: Lona
+						Fecha: 17 de octubre 2022"
+						data-fresco-group="projects">
+						<img src="img/portafolio/IMP1_500×500_PX.jpg" alt="Impresión Nutrilópez">
 					</a>
 					<div class="gi-hover">
 						<img src="img/hero/author.png" alt="TLANI Logo">
@@ -207,8 +211,12 @@
 					</div>
 				</div>
 				<div class="gallery-item impresion">
-					<a class="fresco" href="img/gallery/8.jpg"  data-fancybox data-caption="Impresión" data-fresco-group="projects">
-						<img src="img/gallery/8.jpg" alt="">
+					<a class="fresco" href="img/portafolio/IMP2_500×500_PX.jpg"  data-fancybox data-caption="Cliente:  Rocketto.
+						Técnica:  Impresión digital laser.
+						Sustrato: Papel adhesivo, Floor graphics, cartón gris.
+						Fecha: 20 de febrero 2024"
+						data-fresco-group="projects">
+						<img src="img/portafolio/IMP2_500×500_PX.jpg" alt="Impresión Rocketto">
 					</a>
 					<div class="gi-hover">
 						<img src="img/hero/author.png" alt="TLANI Logo">
@@ -261,6 +269,17 @@
 	<script src="js/pana-accordion.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
 	<script src="js/main.js"></script>
+	<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+	<script>
+		import { createApp, ref } from 'vue'
+		createApp({
+		setup() {
+			return {
+			count: ref(0)
+			}
+		}
+		}).mount('#app')
+	</script>
 	<script>
 		// Enable Fancybox for any element with the `data-fancybox` attribute
 		Fancybox.bind('[data-fancybox]', {
